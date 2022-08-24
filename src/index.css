@@ -3,6 +3,7 @@
   --dark-color: #333333;
   --light-color: white;
   --blue-color: #3098F3;
+  --background-color: #FCFCFC;
 }
 * {
   box-sizing: border-box;
