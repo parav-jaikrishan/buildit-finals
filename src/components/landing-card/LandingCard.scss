@@ -1,12 +1,13 @@
 .landing-card {
     position: relative;
-    background-color: var(--blue-color);
-    color: var(--light-color);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 8px;
     padding: 1em;
     width: 15em;
     height: 15em;
+    margin-bottom: 2.5em;
     h1, p {
         width: 90%;
         margin: auto;
@@ -24,5 +25,10 @@
         transform: translateY(-50%);
         right: 0.5em;
         opacity: 0.2;
+    }
+}
+@media (min-width: 768px) {
+    .landing-card {
+        margin-right: 3em;
     }
 }

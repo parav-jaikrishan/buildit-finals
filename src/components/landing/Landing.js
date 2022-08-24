@@ -18,6 +18,8 @@ export const Landing = () => {
             </div>
             <div className='card-container'>
                 <LandingCard/>
+                <LandingCard/>
+                <LandingCard/>
             </div>
         </div>
     );
