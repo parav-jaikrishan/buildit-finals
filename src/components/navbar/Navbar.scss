@@ -83,7 +83,9 @@
         display: none;
     }
     .laptop-navbar {
-        position: fixed;
+        position: fixed;    
+        background-color: var(--light-color);
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
         top: 0;
         left: 0;
         right: 0;
@@ -106,7 +108,7 @@
             text-decoration: none;
             font-size: 16px;
             font-weight: 500;
-            color: var(--light-color);
+            color: var(--dark-color);
             margin-right: 1.5em;
             display: inline-block;
             position: relative;
@@ -121,7 +123,7 @@
                 right: 0;
                 width: 0;
                 bottom: 0;
-                background: var(--light-color);
+                background: var(--dark-color);
                 height: 2px;
                 transition: all 0.3s;
             }
@@ -129,16 +131,6 @@
                 left: 0;
                 right: auto;
                 width: 100%;
-            }
-        }
-    }
-    .laptop-navbar.scrolled {
-        background-color: var(--light-color);
-        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
-        a {
-            color: var(--dark-color);
-            &:after {
-                color: var(--dark-color);
             }
         }
     }
