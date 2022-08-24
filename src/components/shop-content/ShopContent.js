@@ -26,21 +26,18 @@ export const ShopContent = () => {
             img: "assets/smoothie.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
-            bought: true
         },
         {
             name: 'Smoothie',
             img: "assets/smoothie1.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
-            bought: false
         },
         {
             name: 'Smoothie',
             img: "assets/smoothie2.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
-            bought: true
         },
     ];
     const soupCards = [
@@ -60,15 +57,21 @@ export const ShopContent = () => {
     const soupModals = [
         {
             name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            cost: 50,
         },
         {
             name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            cost: 50,
         },
         {
             name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            cost: 50,
         }
     ];
     const [openedSmoothieModal, setOpenedSmoothieModal] = useState(
@@ -153,7 +156,7 @@ export const ShopContent = () => {
             </div>
             <div className="super-cart">
                 <h1>Your super cart <AiOutlineShoppingCart className="icon cart"/></h1>
-                <div className="cart-container">
+                <div className={cartItems.length > 0 ? "cart-container" : ""}>
                     {
                         cartItems.map((card, i) => {
                             return (
