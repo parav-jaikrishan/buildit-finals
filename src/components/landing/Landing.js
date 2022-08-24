@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LandingCard } from '../landing-card/LandingCard';
 import "./Landing.scss";
 
 export const Landing = () => {
