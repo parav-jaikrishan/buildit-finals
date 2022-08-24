@@ -28,7 +28,7 @@ export const Navbar = () => {
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Superman_S_symbol.svg/2560px-Superman_S_symbol.svg.png" alt="Our logo"/>
                 <div className={ clicked ? "links active" : "links" }>
                     <Link to="/">Home</Link>
-                    <Link to="/shops">Shops</Link>
+                    <Link to="/shops">Shop</Link>
                     <Link to="/contact">Contacts</Link>
                 </div>
                 <div className={ clicked ? "hamburger active" : "hamburger" } onClick={ () => hamburgerClicked() }>
