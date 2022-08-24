@@ -1,12 +1,13 @@
 import React from "react";
 import "./LandingCard.scss";
 
-export const LandingCard = () => {
+export const LandingCard = (props) => {
+  const { data } = props;
   return (
     <div className="landing-card">
-      <h1>Instant Delivery</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse provident atque rerum!</p>
-      <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" alt="Cart icon"/>
+      <h1>{data.title}</h1>
+      <p>{data.content}</p>
+      <img src={data.src} alt={ data.title }/>
     </div>
   );
 }
