@@ -106,7 +106,7 @@
             text-decoration: none;
             font-size: 16px;
             font-weight: 500;
-            color: var(--dark-color);
+            color: var(--light-color);
             margin-right: 1.5em;
             display: inline-block;
             position: relative;
@@ -117,11 +117,11 @@
             &:after {
                 content: "";
                 position: absolute;
-                background: var(--dark-color);
                 z-index: 1;
                 right: 0;
                 width: 0;
                 bottom: 0;
+                background: var(--light-color);
                 height: 2px;
                 transition: all 0.3s;
             }
@@ -132,7 +132,7 @@
             }
         }
     }
-    .laptop-navbar {
+    .laptop-navbar.scrolled {
         background-color: var(--light-color);
         box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
         a {
