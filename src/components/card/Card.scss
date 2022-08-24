@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  width: 15em;
+  height: 15em;
+  background-color: rgba(200, 200, 200, 0.2);
+  border-radius: 5px;
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+  box-shadow: none;
+  transition: all 0.3s;
+  img {
+    height: 10em;
+  }
+  &:hover {
+    box-shadow: 0 3px 5px 0 rgba(86, 71, 137, 0.3);
+  }
+}
+.card.map img {
+  height: 10em;
+  margin-right: 2em;
+}
+.card.brown {
+  background-color: #D87F4C;
+  color: white;
+}
+.card.green {
+  background-color: #48d0b0;
+  color: white;
+}
+.card.orange {
+  background-color: #fb6c6c;
+  color: white;
+}
+.card.blue {
+  background-color: #76bdfe;
+  color: white;
+}
+@media (min-width: 768px) {
+  .card {
+    margin-right: 5em;
+  }
+}
