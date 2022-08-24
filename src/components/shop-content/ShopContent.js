@@ -69,15 +69,27 @@ export const ShopContent = () => {
     const [openedSmoothieModal, setOpenedSmoothieModal] = useState(
         Array(smoothieModals.length).fill(false)
     );
+    const [openedSoupModal, setOpenedSoupModal] = useState(
+        Array(smoothieModals.length).fill(false)
+    );
     const [showModal, setShowModal] = useState("");
-    const openModal = i => {
+    const openSmoothieModal = i => {
         let arr = Array(openedSmoothieModal.length).fill(false);
         arr[i] = true;
         setOpenedSmoothieModal([...arr]);
         setShowModal("show");
     }
-    const closeModal = () => {
+    const closeSmoothieModal = () => {
         setOpenedSmoothieModal(Array(openedSmoothieModal.length).fill(false));
+    }
+    const openSoupModal = i => {
+        let arr = Array(openedSoupModal.length).fill(false);
+        arr[i] = true;
+        setOpenedSoupModal([...arr]);
+        setShowModal("show");
+    }
+    const closeSoupModal = () => {
+        setOpenedSoupModal(Array(openedSoupModal.length).fill(false));
     }
     return (
         <>
@@ -88,7 +100,7 @@ export const ShopContent = () => {
                         {
                             smoothieCards.map((card, index) => {
                                 return (
-                                    <Card key={index} name={card.name} image={card.img} clicked={() => openModal(index)}/>
+                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSmoothieModal(index)}/>
                                 );
                             })
                         }
@@ -98,9 +110,9 @@ export const ShopContent = () => {
                     <h1>Super Soups</h1>
                     <div className="card-container">
                         {
-                            smoothieCards.map((card, index) => {
+                            soupCards.map((card, index) => {
                                 return (
-                                    <Card key={index} name={card.name} image={card.img} clicked={() => openModal(index)}/>
+                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSoupModal(index)}/>
                                 );
                             })
                         }
@@ -111,9 +123,20 @@ export const ShopContent = () => {
                     smoothieModals.map((modal, index) => {
                     if(openedSmoothieModal[index])
                         return (
-                            <ContentModal key={index} show={showModal} data={modal} onClose={() => closeModal()} buy={true}/>
+                            <ContentModal key={index} show={showModal} data={modal} onClose={() => closeSmoothieModal()} buy={true}/>
                         );
                 })}
+                {
+                    //eslint-disable-next-line
+                    soupModals.map((modal, index) => {
+                    if(openedSmoothieModal[index])
+                        return (
+                            <ContentModal key={index} show={showModal} data={modal} onClose={() => closeSoupModal()} buy={true}/>
+                        );
+                })}
+            </div>
+            <div className="super-cart">
+
             </div>
         </>
     );
