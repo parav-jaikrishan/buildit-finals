@@ -29,7 +29,7 @@ export const Navbar = () => {
                 <div className={ clicked ? "links active" : "links" }>
                     <Link to="/">Home</Link>
                     <Link to="/shops">Shop</Link>
-                    <Link to="/contact">Contacts</Link>
+                    <Link to="/contact">Contact Us</Link>
                 </div>
                 <div className={ clicked ? "hamburger active" : "hamburger" } onClick={ () => hamburgerClicked() }>
                     <span className="bar"></span>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                 <div className="links">
                     <Link to="/">Home</Link>
                     <Link to="/shops">Shop</Link>
-                    <Link to="/contact">Contacts</Link>
+                    <Link to="/contact">Contact Us</Link>
                 </div>
             </nav>
         </>
