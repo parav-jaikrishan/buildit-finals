@@ -1,7 +1,8 @@
 .landing-card {
     position: relative;
-    background-color: var(--light-color);
-    color: var(--dark-color);
+    background-color: var(--blue-color);
+    color: var(--light-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     padding: 1em;
     width: 15em;
