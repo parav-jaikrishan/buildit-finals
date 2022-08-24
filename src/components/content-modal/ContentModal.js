@@ -16,7 +16,7 @@ export const ContentModal = props => {
                 {buy && 
                 <div className="buttons">
                     <button className='buy' onClick={props.onClose}>Buy Now</button>
-                    <button className="add" onClick={props.onClose}>Add to Cart</button>
+                    <button className="add" onClick={props.addItems}>Add to Cart</button>
                 </div>}
                 {data.stats && 
                     <div className="stats">

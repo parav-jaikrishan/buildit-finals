@@ -1,5 +1,8 @@
 .shop-content {
+    margin: 0 auto;
+    width: 90vw;
     margin-top: 5em;
+    border-bottom: 2px solid #333;
 }
 .shop-section {
     width: 100%;
@@ -25,10 +28,50 @@
     }
 }
 @media(min-width: 768px) {
+    .shop-container {
+        display: flex;
+        width: 100%;
+        .super-cart {
+            margin-top: 6em;
+            h1 {
+                font-size: 2.5em;
+                .icon.cart {
+                    transform: translateY(5px);
+                }
+            }
+            .cart-container {
+                margin-top: 1em;
+                border: 1px solid #333;
+                .item {
+                    width: 30em;
+                    padding: 1em;
+                    display: flex;
+                    border-bottom: 1px solid #333;
+                    img {
+                        width: 8em;
+                    }
+                    h2 {
+                        font-size: 1.2em;
+                    }
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+                    p {
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    }
     .shop-content {
-        margin-top: 6em;
+        border-right: 2px solid #333;
+        border-bottom: none;
+        width: 65vw;
+        margin: 0 2em;
     }
     .shop-section {
+        width: 65vw;
+        margin: 6em 2em 0;
         margin-left: 2em;
         text-align: left;
         h1 {
