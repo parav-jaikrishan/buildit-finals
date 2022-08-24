@@ -7,17 +7,17 @@ export const Landing = () => {
     const cards = [
         {
             title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium.",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         },
         {
             title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium.",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         },
         {
             title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium.",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         }
     ]
