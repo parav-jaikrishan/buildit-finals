@@ -5,6 +5,9 @@ img {
   border: none;
   outline: none;
 }
+a {
+  text-decoration: none;
+}
 button,
 a {
   cursor: pointer;
