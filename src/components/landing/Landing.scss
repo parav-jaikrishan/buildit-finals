@@ -45,7 +45,14 @@
             width: 12em;
             margin-bottom: 1em;
         }
-    };
+    }
+    .card-container {
+        padding: 1em;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (min-width: 768px) {
     .landing {

@@ -1,0 +1,27 @@
+.landing-card {
+    position: relative;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 8px;
+    padding: 1em;
+    width: 15em;
+    height: 15em;
+    h1, p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+    }
+    img {
+        position: absolute;
+        width: 5em;
+        top: 50%;
+        bottom: 50%;
+        transform: translateY(-50%);
+        right: 0.5em;
+        opacity: 0.2;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LandingCard } from '../landing-card/LandingCard';
 import "./Landing.scss";
 
 export const Landing = () => {
@@ -14,9 +15,9 @@ export const Landing = () => {
                         <Link className="shop-btn" to="/shop">Shop Now</Link>
                 </div>
                 <img width="100px" src="https://talenthouse-res.cloudinary.com/image/upload/c_limit,h_1000,w_1000/v1/user-897545/submissions/lw6swq6sbnypyswrg1we.gif" alt="Flying superman image"/>
-                <div className='card-container'>
-                    
-                </div>
+            </div>
+            <div className='card-container'>
+                <LandingCard/>
             </div>
         </div>
     );
