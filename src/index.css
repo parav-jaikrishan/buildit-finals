@@ -1,7 +1,8 @@
 :root {
   --primary-font: "Poppins";
   --dark-color: #333333;
-  --light-color: #FAFAFA;
+  --light-color: white;
+  --blue-color: #3098F3;
 }
 * {
   box-sizing: border-box;
