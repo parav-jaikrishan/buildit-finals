@@ -25,7 +25,7 @@ export const Navbar = () => {
     return (    
         <>
             <nav className={ scrolled ? "mobile-navbar scrolled" : "mobile-navbar" }>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Superman_S_symbol.svg/2560px-Superman_S_symbol.svg.png" alt="Our logo"/>
+                <img src="assets/Vector_1.png" alt="Our logo"/>
                 <div className={ clicked ? "links active" : "links" }>
                     <Link to="/">Home</Link>
                     <Link to="/shop">Shop</Link>
@@ -38,7 +38,7 @@ export const Navbar = () => {
                 </div>
             </nav>
             <nav className={ scrolled ? "laptop-navbar scrolled" : "laptop-navbar"}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Superman_S_symbol.svg/2560px-Superman_S_symbol.svg.png" alt="Our logo"/>
+                <img src="assets/Vector_1.png" alt="Our logo"/>
                 <div className="links">
                     <Link to="/">Home</Link>
                     <Link to="/shop">Shop</Link>

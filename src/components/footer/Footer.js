@@ -24,10 +24,10 @@ export const Footer = () => {
                     </ul>
                 </section>
                 <section>
-                <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.92106946974!2d77.17298251542827!3d28.572132793562098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d6a4215eca1%3A0x238068ee5504b2d7!2sDPS%20RK%20PURAM%20MAIN%20ENTRY%20GATE!5e0!3m2!1sen!2sin!4v1660152460441!5m2!1sen!2sin" width="400" height="300" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.887959017228!2d77.21614281470822!3d28.692997982393926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04ac9a220bd3%3A0x1e4cacca192cf7fe!2sCSIR-%20Institute%20of%20Genomics%20and%20Integrative%20Biology%20(IGIB)!5e0!3m2!1sen!2sin!4v1661404750461!5m2!1sen!2sin" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </section>
                 <section className="copyright">
-                    <p>Copyright &#169; 2022 <a href="https://github.com/parav-jaikrishan/">Parav Jaikrishan</a></p>
+                    <p>Copyright &#169; 2022 <a href="https://github.com/parav-jaikrishan/">SuperEats</a></p>
                 </section>
             </div> 
         </footer>

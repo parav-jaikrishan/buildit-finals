@@ -58,13 +58,13 @@ export const ShopContent = () => {
         {
             name: 'Bat Popsicle',
             img: "assets/icecream.png",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            content: "Makes the consumer highly superior in intellect. Known side effects include a rush in adrenalin and high influx of money",
             cost: 50,
         },
         {
             name: 'Thunder Popsicle',
             img: "assets/icecream1.png",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            content: "Allows the consumer to wield Mjolnir. Side effects include muscle sprain(hammer too heavy)",
             cost: 50,
         },
         {

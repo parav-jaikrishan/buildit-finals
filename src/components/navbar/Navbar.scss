@@ -16,7 +16,7 @@
     font-family: var(--primary-font);   
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
     img {
-        width: 4em;
+        height: 4em;
     }
     .links {
         position: fixed;    
@@ -97,7 +97,7 @@
         height: 5.5em;
         transition: all 0.2s;
         img {
-            width: 5em;
+            height: 3em;
             margin-left: 2em;
         }
         .links {

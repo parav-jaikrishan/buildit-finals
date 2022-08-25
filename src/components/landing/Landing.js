@@ -12,7 +12,7 @@ export const Landing = () => {
         },
         {
             title: "How it works?",
-            content: "Each product on our website has a predetermined super power, which on consumption, is attained by the consumer. Though these powers are not permanent, they are still very effective. The effects wear off in around 30 minutes. This is so less because we do not want the items to be used for malicious purposes.",
+            content: "Each product on our website has a predetermined super power, which on consumption, is attained by the consumer. Though these powers are not permanent, they are still very effective. The effects wear off in around 30 minutes.",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         },
         {
