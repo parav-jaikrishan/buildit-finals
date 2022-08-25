@@ -114,24 +114,24 @@ export const ShopContent = () => {
         <div className="shop-container">
             <div className="shop-content">
                 <div className="shop-section">
-                    <h1>Super Smoothies</h1>
+                    <h1>Super Icecreams</h1>
                     <div className="card-container">
                         {
-                            smoothieCards.map((card, index) => {
+                            soupCards.map((card, index) => {
                                 return (
-                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSmoothieModal(index)}/>
+                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSoupModal(index)}/>
                                 );
                             })
                         }
                     </div>
                 </div>
                 <div className="shop-section">
-                    <h1>Super Soups</h1>
+                    <h1>Super Smoothies</h1>
                     <div className="card-container">
                         {
-                            soupCards.map((card, index) => {
+                            smoothieCards.map((card, index) => {
                                 return (
-                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSoupModal(index)}/>
+                                    <Card key={index} name={card.name} image={card.img} clicked={() => openSmoothieModal(index)}/>
                                 );
                             })
                         }
