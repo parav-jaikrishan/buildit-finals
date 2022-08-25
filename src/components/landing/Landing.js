@@ -17,7 +17,7 @@ export const Landing = () => {
         },
         {
             title: "Instant delivery",
-            content: "Though our products have minimal to no side effects, we still have a 24/7 helpline number at 011 XXX XXX. Anyone who has some doubts after or before consuming our product can give us a ring!",
+            content: "Though our products have minimal to no side effects, we still have a 24/7 helpline number at +91-11-49115500. Anyone who has some doubts after or before consuming our product can give us a ring!",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         }
     ]
