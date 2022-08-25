@@ -6,18 +6,18 @@ import "./Landing.scss";
 export const Landing = () => {
     const cards = [
         {
-            title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
+            title: "What we offer?",
+            content: "SuperEats provides a safe way to gain super powers (though temporary) via food items! Currently, we are providing these powers via ice-cream and smoothies. The items have been tested by experts for years and they are now being launched with minimal to no side effects.",
+            src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
+        },
+        {
+            title: "How it works?",
+            content: "Each product on our website has a predetermined super power, which on consumption, is attained by the consumer. Though these powers are not permanent, they are still very effective. The effects wear off in around 30 minutes. This is so less because we do not want the items to be used for malicious purposes.",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         },
         {
             title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
-            src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
-        },
-        {
-            title: "Instant delivery",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit enim laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis dolorum hic odit ",
+            content: "Though our products have minimal to no side effects, we still have a 24/7 helpline number at 011 XXX XXX. Anyone who has some doubts after or before consuming our product can give us a ring!",
             src: "https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
         }
     ]

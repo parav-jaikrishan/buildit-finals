@@ -57,13 +57,13 @@ export const ShopContent = () => {
     const soupModals = [
         {
             name: 'Bat Popsicle',
-            img: "assets/icecream1.png",
+            img: "assets/icecream.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
         },
         {
             name: 'Thunder Popsicle',
-            img: "assets/icecream2.png",
+            img: "assets/icecream1.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
         },
