@@ -1,0 +1,88 @@
+footer {
+    margin-top: 2em;
+    flex-grow:0;
+    background:#121315;
+    color:#AAA;
+    font-family: "Poppins";
+}
+.footerExtras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footerExtras h2 {
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    font-size: clamp(1.25em, 2.5vw, 1.5em);
+    color: #FFF;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #ABC;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: dodgerblue;
+}
+footer p {
+    padding-bottom: 1.5rem;
+}
+.aboutAndSocial,
+.footerExtras .contact-us,
+footer section iframe {
+    width: 80%;
+    height: 12em;
+    margin-bottom: 2em;
+}
+.footerExtras .contact-us ul li span {
+    font-weight: bold;
+}
+.aboutAndSocial p {
+    margin-bottom: 0.8em;
+}
+.footerMenu {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    padding: 1rem clamp(1rem, 3vw, 2rem);
+    background: #222;
+}
+.copyright {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copyright p {
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+footer section iframe {
+    width: 18em;
+}
+@media only screen and (min-width: 768px) {
+    footer section iframe {
+        margin-top: 2em;
+        height: 15em;
+    }
+    .aboutAndSocial,
+    .footerExtras .contact-us,
+    footer section iframe {
+        margin: 2em 0;
+        width: 20%;
+        min-width: 18em;
+        max-width: 30em;
+    }   
+    .aboutAndSocial,
+    .footerExtras .contact-us {
+        margin-right: 5em;
+    }
+}
