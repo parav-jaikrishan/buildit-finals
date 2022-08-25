@@ -6,10 +6,9 @@ export const Footer = () => {
         <footer id="contact-us">
             <div className="footerExtras">
                 <section className="aboutAndSocial">
-                    <h2>DPS RK Puram</h2>
+                    <h2>SuperEats</h2>
                     <p>
-                        Delhi Public School, R. K. Puram, founded in 1972, is a co-educational day and boarding private school educating pupils from 
-                        6th to 12th grade.
+                        We, at CSIR have taken a pledge to make the life of people a lot better. We have been doing our best to acheive our goal of SuperEats being a successful project.
                     </p>
                 </section>
 
@@ -17,7 +16,7 @@ export const Footer = () => {
                     <h2>Contact Us</h2>
                     <ul className="contact">
                         <li key="1">
-                            <span>Email:</span> principal@dpsrkp.net
+                            <span>Email:</span> supereats@gmail.com
                         </li>
                         <li key="2"><span>Phone number:</span> +91-11-49115500</li>
                         <li key="3"><span>Address:</span> Sector-XII, R K Puram, New Delhi, 110022, India

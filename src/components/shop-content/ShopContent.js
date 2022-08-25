@@ -22,55 +22,55 @@ export const ShopContent = () => {
     ];
     const smoothieModals = [
         {
-            name: 'Smoothie',
+            name: 'Purple Smoothie',
             img: "assets/smoothie.png",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            content: "Gives the consumer pinpoint precision and concentration. Known side effects include exhaustion after effect wears off",
             cost: 50,
         },
         {
-            name: 'Smoothie',
+            name: 'Green Smoothie',
             img: "assets/smoothie1.png",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            content: "Gives the consumer the power of Earth-bending. Known side effects are that it's a hard power to control.",
             cost: 50,
         },
         {
-            name: 'Smoothie',
+            name: 'Yellow Smoothie',
             img: "assets/smoothie2.png",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            content: "Gives the consumer the ability to talk to animals. Some side effects are, well, some animals are annoying.",
             cost: 50,
         },
     ];
     const soupCards = [
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            name: 'Bat Popsicle',
+            img: "assets/icecream1.png"
         },
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            name: 'Thunder Popsicle',
+            img: "assets/icecream2.png"
         },
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
+            name: 'Spidey Popsicle',
+            img: "assets/icecream3.png"
         }
     ];
     const soupModals = [
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
+            name: 'Bat Popsicle',
+            img: "assets/icecream1.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
         },
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
+            name: 'Thunder Popsicle',
+            img: "assets/icecream2.png",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
             cost: 50,
         },
         {
-            name: 'Food 1',
-            img: "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consect",
+            name: 'Spidey Popsicle',
+            img: "assets/icecream3.png",
+            content: "Allows the user to experience spidey sense. Known side effects include mild headache and decrease in blood sugar levels.",
             cost: 50,
         }
     ];

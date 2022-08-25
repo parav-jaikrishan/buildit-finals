@@ -42,8 +42,9 @@
             .cart-container {
                 margin-top: 1em;
                 border: 1px solid #333;
+                width: 90%;
                 .item {
-                    width: 30em;
+                    width: 100%;
                     padding: 1em;
                     display: flex;
                     border-bottom: 1px solid #333;
