@@ -57,13 +57,13 @@ export const ShopContent = () => {
     const soupModals = [
         {
             name: 'Bat Popsicle',
-            img: "assets/icecream.png",
+            img: "assets/icecream1.png",
             content: "Makes the consumer highly superior in intellect. Known side effects include a rush in adrenalin and high influx of money",
             cost: 50,
         },
         {
             name: 'Thunder Popsicle',
-            img: "assets/icecream1.png",
+            img: "assets/icecream2.png",
             content: "Allows the consumer to wield Mjolnir. Side effects include muscle sprain(hammer too heavy)",
             cost: 50,
         },
