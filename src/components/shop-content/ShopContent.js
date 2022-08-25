@@ -8,16 +8,16 @@ import "./ShopContent.scss";
 export const ShopContent = () => {
     const smoothieCards = [
         {
-            name: 'Smoothie',
+            name: 'Purple Smoothie',
             img: "assets/smoothie.png"
         },
         {
-            name: 'Smoothie',
-            img: "assets/smoothie1.png"
+            name: 'Green Smoothie',
+            img: "assets/smoothie2.png"
         },
         {
-            name: 'Smoothie',
-            img: "assets/smoothie2.png"
+            name: 'Yellow Smoothie',
+            img: "assets/smoothie1.png"
         }
     ];
     const smoothieModals = [
@@ -29,13 +29,13 @@ export const ShopContent = () => {
         },
         {
             name: 'Green Smoothie',
-            img: "assets/smoothie1.png",
+            img: "assets/smoothie2.png",
             content: "Gives the consumer the power of Earth-bending. Known side effects are that it's a hard power to control.",
             cost: 50,
         },
         {
             name: 'Yellow Smoothie',
-            img: "assets/smoothie2.png",
+            img: "assets/smoothie1.png",
             content: "Gives the consumer the ability to talk to animals. Some side effects are, well, some animals are annoying.",
             cost: 50,
         },
